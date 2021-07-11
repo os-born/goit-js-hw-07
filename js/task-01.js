@@ -6,6 +6,4 @@ const arr = categories.forEach(category => {
         const quantityOfCategoryList = category.firstElementChild.nextElementSibling.querySelectorAll('li').length;
         return console.log(`Количество элементов: ${quantityOfCategoryList}`);
     }
-    
-
 )
