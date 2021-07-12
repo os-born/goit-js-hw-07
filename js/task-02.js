@@ -8,12 +8,11 @@ const ingredients = [
 ];
   
 const arrOfLiItem = ingredients.map(liItem => {
-const liEl = document.createElement("li");
-liEl.textContent = liItem;
-return liEl;
-}
+  const liEl = document.createElement("li");
+  liEl.textContent = liItem;
+  return liEl;
+  }
 )
-
 console.log(arrOfLiItem);
 
 const ulElIngredients = document.querySelector("#ingredients");

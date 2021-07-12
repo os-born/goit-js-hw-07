@@ -15,10 +15,11 @@ const images = [
 
 
 const imgMarkup = images.map(({url, alt}) => {
-  return `<li><img src="${url}" alt="${alt}"></li>`}
-  )
+  return `<li><img src="${url}" alt="${alt}"></li>`
+  }
+)
   
-  console.log(imgMarkup)
+console.log(imgMarkup)
 
 const string = imgMarkup.join(" ");
 console.log(string);
