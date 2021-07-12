@@ -13,7 +13,6 @@ const images = [
   },
 ];
 
-
 const imgMarkup = images.map(({url, alt}) => {
   return `<li><img src="${url}" alt="${alt}"></li>`
   }
