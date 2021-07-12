@@ -7,8 +7,6 @@ const refs = {
     valueOfCounter: document.querySelector('#value')
 }
 
-
-
 const onClickIncrement = function () {
     counterValue += 1;
     refs.valueOfCounter.textContent = counterValue;
