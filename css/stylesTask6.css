@@ -1,0 +1,11 @@
+.input {
+    border: 3px solid #bdbdbd;
+  }
+  
+.input.valid {
+    border-color: #4caf50;
+  }
+  
+.input.invalid {
+    border-color: #f44336;
+  }
