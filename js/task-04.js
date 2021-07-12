@@ -9,9 +9,11 @@ const onClickIncrement = function () {
     counterValue += 1;
     numberOfCounter.textContent = counterValue;
 }
+
 const onClickDecrement = function() {
     counterValue -= 1;
     newValue.textContent = counterValue;
 }
+
 increment.addEventListener('click', onClickIncrement);
 decrement.addEventListener('click', onClickDecrement);
