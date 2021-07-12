@@ -7,13 +7,13 @@ const numberOfCounterRef = document.querySelector('#value');
 
 const onClickIncrement = function () {
     counterValue += 1;
-    numberOfCounter.textContent = counterValue;
+    numberOfCounterRef.textContent = counterValue;
 }
 
 const onClickDecrement = function() {
     counterValue -= 1;
-    newValue.textContent = counterValue;
+    numberOfCounterRef.textContent = counterValue;
 }
 
-increment.addEventListener('click', onClickIncrement);
-decrement.addEventListener('click', onClickDecrement);
+incrementRef.addEventListener('click', onClickIncrement);
+decrementRef.addEventListener('click', onClickDecrement);
